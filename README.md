@@ -9,6 +9,6 @@ The libaries I used:
 'string.ascii_punctuation' for random special symbols
 random.choices(....... ,k=n(weights)) for random selction with in range.
 
-Bases on #OOPS concept
+Based on #OOPS concept
                
                   
