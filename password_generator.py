@@ -40,7 +40,7 @@ choice=int(input('\t1.Test your password score\n\t2.Genrate new password \t\t\n'
 if choice==1:
     #Test password
     import re
-    str=input('Password:\t')
+    str=input('******\tIncldue Caps & Special characters\t*****\t\n\n\t\tPassword:')
     cap_let=re.findall('[A-Z]',str)
     small_let=re.findall('[a-z]',str)
     digits=re.findall('\d',str)
